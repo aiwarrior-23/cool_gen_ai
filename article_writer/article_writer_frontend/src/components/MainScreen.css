@@ -1,0 +1,67 @@
+.main-screen {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+  }
+  
+  .main-screen h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main-screen textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .main-screen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-screen button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .main-screen .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  .article-content {
+    margin-top: 20px;
+  }
+  
+  .article-content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .article-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .level-2 h2 {
+    font-size: 1.8em;
+  }
+  
+  .level-3 h2 {
+    font-size: 1.6em;
+  }
+  
+  .level-4 h2 {
+    font-size: 1.4em;
+  }
+  
+  .level-5 h2 {
+    font-size: 1.2em;
+  }
+  

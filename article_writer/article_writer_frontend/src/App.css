@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: '2%'
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #343a40;
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar .nav-link {
+  color: white;
+  margin: 0 15px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057;
+}
+
+.main-screen {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-screen {
+    padding: 10px;
+  }
+}
